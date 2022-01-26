@@ -6,19 +6,18 @@ export default function About() {
   return (
     <section
       id="About"
-      className="relative flex flex-col justify-center w-full px-8 py-10 mb-6 h-96 font-body"
+      className="relative flex flex-col justify-center w-full px-8 py-16 mb-6 h-96 font-body"
     >
       <div className="absolute z-10 w-2/3 pt-20 md:text-lg lg:pl-20 2xl:pl-32 ">
         <FadeLeft>
-          <h3 className="mr-6 text-xl font-bold lg:text-3xl">
-            A PASSION FOR BURGERS
-          </h3>
+          <h3 className="mr-6 text-xl font-bold lg:text-3xl">Your Headline</h3>
           <p className="pt-4 text-lg font-medium lg:text-xl">
-            We here at Example Burger take burgers seriously. Every patty is
-            expertly handmade in-house, using only the freshest local
-            ingredients. Our buns are artisanally baked each morning. Our
-            fixings are local and organic. Every burger is prepared fresh
-            to-order and made with love.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
           </p>
         </FadeLeft>
       </div>

@@ -50,12 +50,12 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <FadeUp>
-              <h3 className="h-10 text-3xl font-bold text-neutral-900">
-                Example Burger
+              <h3 className="py-4 text-5xl font-bold text-neutral-900">
+                YugiRolls
               </h3>
 
               <p className="text-xl font-medium text-neutral-900 ">
-                Making the world a better place, one burger at a time.
+                Making the world a better place, one bite at a time.
               </p>
             </FadeUp>
             <div className="flex space-x-6">
@@ -63,7 +63,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-neutral-600 hover:text-neutral-900"
+                  className="text-neutral-600 hover:text-orange-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="w-6 h-6" aria-hidden="true" />
@@ -92,7 +92,7 @@ export default function Footer() {
                   <li>
                     Email: info@
                     <br />
-                    exampleburger.com
+                    yugirolls.com
                   </li>
                 </ul>
               </div>

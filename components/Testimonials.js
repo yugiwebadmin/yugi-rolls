@@ -2,7 +2,7 @@ import FadeUp from "../animations/FadeUp.js";
 
 export default function Testimonials() {
   return (
-    <div className="pt-16 bg-white lg:py-24 font-body">
+    <div className="pt-20 bg-white lg:py-24 font-body">
       <div className="pb-16 mb-16 shadow-xl bg-neutral-800 lg:pb-0 lg:z-10 lg:relative shadow-neutral-400">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
@@ -14,7 +14,7 @@ export default function Testimonials() {
               <div className="overflow-hidden shadow-xl shadow-neutral-800 aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/aboutburger2000.jpg"
+                  src="/wonton1.jpg"
                   alt="picture of burger"
                 />
               </div>
@@ -34,9 +34,8 @@ export default function Testimonials() {
                   </svg>
                   <FadeUp>
                     <p className="mt-6 text-2xl font-medium text-white ">
-                      ...These burgers are so unbelievably good, every
-                      ingredient incredibly fresh. I'll never eat a burger
-                      anywhere else. My standards are now too high.
+                      ...unbelievably fresh and delicious. I recommend YugiRolls
+                      to everyone I know, vegan or not.
                     </p>
                   </FadeUp>
                 </div>

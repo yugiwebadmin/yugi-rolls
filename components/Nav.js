@@ -110,7 +110,7 @@ export default function Nav() {
                   <motion.a
                     key={id}
                     href={to}
-                    className="flex pl-8 mt-10 text-orange-600 transition duration-100 ease-in-out transform w-max hover:scale-105 hover:underline"
+                    className="flex pl-8 mt-10 text-white transition duration-100 ease-in-out transform w-max hover:scale-105 hover:text-orange-600 "
                     variants={itemVariants}
                     aria-current={links.current ? "page" : undefined}
                     onClick={cycleOpen}
@@ -137,7 +137,7 @@ export default function Nav() {
             <a
               key={id}
               href={to}
-              className="mx-8 my-6 text-lg font-normal transition duration-100 ease-in-out transform hover:scale-105 hover:underline lg:mx-12 9 md:text-xl "
+              className="mx-8 my-6 text-lg font-normal transition duration-100 ease-in-out transform hover:scale-105 hover:text-orange-600 lg:mx-12 9 md:text-xl "
             >
               {name}
             </a>

@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function Meta() {
   return (
     <Head>
-      <title>Example Burger</title>
+      <title>YugiRolls</title>
       <link rel="icon" href="/favicon.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
