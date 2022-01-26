@@ -54,36 +54,33 @@ export default function Nav() {
 
   return (
     <nav
-      className={`text-white w-full flex backdrop-blur-sm justify-between  font-display  fixed z-50 trasition ease-in-out duration-500 ${
+      className={`text-white w-full flex backdrop-blur-sm justify-between  font-display   fixed z-50 trasition ease-in-out duration-500 ${
         animateNav && "shadow-xl "
       }`}
     >
       <div
-        className={`flex w-screen py-4 bg-transparent   ${
+        className={`flex w-screen py-4 bg-transparent    ${
           animateNav &&
-          "py-0  backdrop-blur-sm bg-neutral-800/20 trasition ease-in-out duration-500"
+          "py-0   backdrop-blur-sm bg-neutral-800/20 trasition ease-in-out duration-500"
         } mx-auto   justify-between `}
       >
         <Link href="/">
-          <a className="inline-flex mx-4 my-4 text-2xl tracking-widest transition duration-100 ease-in-out transform cursor-pointer md:text-3xl md:ml-8 lg:ml-16 ">
-            <Image
-              src="/yugiroll-small.png"
-              alt="logo"
-              height={73}
-              width={100}
-            />
+          <a className="inline-flex my-2 ml-2 text-2xl tracking-widest transition duration-100 ease-in-out transform cursor-pointer md:text-3xl md:ml-8 lg:ml-16 ">
+            <Image src="/yugimonkey.png" alt="logo" height={73} width={100} />
           </a>
         </Link>
-
+        <div className="h-full px-4 pt-5 md:mr-12 lg:mr-20">
+          <Image src="/yugitext.png" alt="logo" height={50} width={300} />
+        </div>
         {/* The Side Bar Menu for screens smaller than 'Medium' */}
         <AnimatePresence>
           {open && (
             <motion.aside
-              className="fixed top-0 right-0 h-screen bg-neutral-800/90 md:hidden overflow"
+              className="fixed top-0 right-0 h-screen bg-neutral-800/90 overflow"
               initial={{ width: 0 }}
               transition={{ type: "tween" }}
               animate={{
-                width: "95%",
+                width: "320px",
               }}
               exit={{
                 width: 0,
@@ -124,15 +121,15 @@ export default function Nav() {
         </AnimatePresence>
 
         {/* The Hamburger Menu and Close Icons */}
-        <div className="flex justify-end md:hidden ">
-          <button className="px-2 m-2 cursor-pointer">
+        <div className="flex justify-end md:mr-4">
+          <button className="px-2 cursor-pointer">
             <span className="sr-only ">Open main menu</span>
             <Hamburger toggled={open} toggle={cycleOpen} />
           </button>
         </div>
 
         {/* The Navbar on medium screens */}
-        <div className="hidden pr-8 md:inline-flex ">
+        {/* <div className="hidden pr-8 md:inline-flex ">
           {links.map(({ name, to, id }) => (
             <a
               key={id}
@@ -142,7 +139,7 @@ export default function Nav() {
               {name}
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </nav>
   );

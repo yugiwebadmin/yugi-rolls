@@ -34,7 +34,7 @@ export default function Header() {
             },
           }}
         >
-          <div className="self-center p-8 mt-16 border-2 shadow-lg bg-neutral-600/70 w-max backdrop-blur-sm shadow-neutral-700">
+          <div className="self-center p-8 mt-20 border-2 shadow-lg bg-neutral-600/70 w-max backdrop-blur-sm shadow-neutral-700">
             Next Popup is Sat Feb 31
             {/* <motion.h3
             className="flex flex-col mt-2 text-xl md:text-2xl lg:text-3xl 2xl:text-4xl"

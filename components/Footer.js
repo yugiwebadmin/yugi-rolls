@@ -117,7 +117,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 mt-12 border-t border-neutral-500">
           <p className="text-base font-medium text-center text-neutral-900">
-            &copy; 2022 Example Burger, Inc. All rights reserved.
+            &copy; 2022 YUGIROLLS All rights reserved.
           </p>
         </div>
       </div>
