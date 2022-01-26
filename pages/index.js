@@ -5,13 +5,14 @@ import About from "../components/About.js";
 import Testimonials from "../components/Testimonials.js";
 import Footer from "../components/Footer.js";
 import Meta from "../components/Meta.js";
+import Header from "../components/Header.js";
 
 export default function Home() {
   return (
     <>
       <Meta />
       <Nav />
-      <Hero />
+      <Header />
       <About />
       <Testimonials />
       <Footer />

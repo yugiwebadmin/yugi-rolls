@@ -8,6 +8,7 @@
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
+    "@icons-pack/react-simple-icons": "^4.6.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "framer-motion": "^5.4.5",
     "hamburger-react": "^2.4.1",
