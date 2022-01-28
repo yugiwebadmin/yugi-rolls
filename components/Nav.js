@@ -8,10 +8,11 @@ import { Squash as Hamburger } from "hamburger-react";
 import { useState, useEffect } from "react";
 
 const links = [
-  { name: "About", to: "#About", id: 1 },
-  { name: "Menu", to: "#Menu", id: 2 },
-  { name: "Order", to: "#Order", id: 3 },
-  { name: "Contact", to: "#Contact", id: 4 },
+  { name: "Home", to: "/", id: 1 },
+  { name: "About", to: "/about", id: 2 },
+  { name: "Menu", to: "/menu", id: 3 },
+  { name: "Order", to: "/Order", id: 4 },
+  { name: "Contact", to: "/Contact", id: 5 },
 ];
 
 const itemVariants = {
@@ -54,14 +55,14 @@ export default function Nav() {
 
   return (
     <nav
-      className={`text-white w-full flex backdrop-blur-sm justify-between  font-display   fixed z-50 trasition ease-in-out duration-500 ${
+      className={` w-full flex  justify-between bg-white/40  font-display backdrop-blur-sm   fixed z-50 transition ease-in-out duration-500 ${
         animateNav && "shadow-xl "
       }`}
     >
       <div
-        className={`flex w-screen py-4 bg-transparent    ${
+        className={`flex w-screen py-2 bg-transparent    ${
           animateNav &&
-          "py-0   backdrop-blur-sm bg-neutral-800/20 trasition ease-in-out duration-500"
+          "py-0   backdrop-blur-sm bg-white/40 trasition ease-in-out duration-500"
         } mx-auto   justify-between `}
       >
         <Link href="/">
@@ -72,7 +73,7 @@ export default function Nav() {
         <div className="h-full px-4 pt-5 md:mr-12 lg:mr-20">
           <Image src="/yugitext.png" alt="logo" height={50} width={300} />
         </div>
-        {/* The Side Bar Menu for screens smaller than 'Medium' */}
+        {/* The Side Bar Menu */}
         <AnimatePresence>
           {open && (
             <motion.aside
@@ -122,7 +123,7 @@ export default function Nav() {
 
         {/* The Hamburger Menu and Close Icons */}
         <div className="flex justify-end md:mr-4">
-          <button className="px-2 cursor-pointer">
+          <button className="px-2 text-orange-600 cursor-pointer">
             <span className="sr-only ">Open main menu</span>
             <Hamburger toggled={open} toggle={cycleOpen} />
           </button>

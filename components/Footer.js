@@ -1,4 +1,5 @@
 import FadeUp from "../animations/FadeUp.js";
+import Image from "next/image";
 
 const navigation = {
   social: [
@@ -50,23 +51,17 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <FadeUp>
-              <h3 className="py-4 text-5xl font-bold text-neutral-900">
-                YugiRolls
-              </h3>
-
-              <p className="text-xl font-medium text-neutral-900 ">
-                Making the world a better place, one bite at a time.
-              </p>
+              <Image src="/yugitext.png" alt="logo" height={50} width={300} />
             </FadeUp>
-            <div className="flex space-x-6">
+            <div className="flex space-x-8">
               {navigation.social.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-neutral-600 hover:text-orange-500"
+                  className="text-neutral-600 hover:text-orange-600"
                 >
                   <span className="sr-only">{item.name}</span>
-                  <item.icon className="w-6 h-6" aria-hidden="true" />
+                  <item.icon className="w-8 h-8" aria-hidden="true" />
                 </a>
               ))}
             </div>

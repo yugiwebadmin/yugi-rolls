@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/hero2bigger.jpg')",
+        hero: "url('/eggroll-hero.jpg')",
       },
     },
     fontFamily: {
@@ -16,5 +16,8 @@ module.exports = {
       body: ["Raleway"],
     },
   },
-  plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/typography"),
+  ],
 };

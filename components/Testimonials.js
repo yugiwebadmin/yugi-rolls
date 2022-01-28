@@ -3,7 +3,7 @@ import FadeUp from "../animations/FadeUp.js";
 export default function Testimonials() {
   return (
     <div className="pt-20 bg-white lg:py-24 font-body">
-      <div className="pb-16 mb-16 shadow-xl bg-neutral-800 lg:pb-0 lg:z-10 lg:relative shadow-neutral-400">
+      <div className="pb-16 mb-16 shadow-md bg-neutral-700 lg:pb-0 lg:z-10 lg:relative shadow-neutral-400">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
             <div
@@ -11,10 +11,10 @@ export default function Testimonials() {
               className="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden"
             />
             <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-              <div className="overflow-hidden shadow-xl shadow-neutral-800 aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+              <div className="overflow-hidden shadow-md shadow-neutral-800/80 aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/wonton1.jpg"
+                  src="/eggrolls2.jpg"
                   alt="picture of burger"
                 />
               </div>

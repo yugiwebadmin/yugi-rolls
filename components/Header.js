@@ -34,7 +34,7 @@ export default function Header() {
             },
           }}
         >
-          <div className="self-center p-8 mt-20 border-2 shadow-lg bg-neutral-600/70 w-max backdrop-blur-sm shadow-neutral-700">
+          <div className="self-center p-8 mt-20 border shadow-lg bg-neutral-600/70 w-max backdrop-blur-sm shadow-neutral-700">
             Next Popup is Sat Feb 31
             {/* <motion.h3
             className="flex flex-col mt-2 text-xl md:text-2xl lg:text-3xl 2xl:text-4xl"
@@ -64,7 +64,7 @@ export default function Header() {
         <DelayedFadeIn>
           <div className="flex justify-center">
             <Link href={"/#Contact"} passHref>
-              <button className="absolute p-2 -mt-5 text-base font-normal text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer hover:border-yellow-400 hover:text-black shadow-neutral-700 w-36 lg:p-3 lg:w-48 lg:text-xl hover:bg-yellow-400">
+              <button className="absolute w-32 p-3 -mt-5 text-base font-normal text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer hover:border-yellow-400 hover:text-black shadow-neutral-700 lg:w-44 lg:text-xl hover:bg-yellow-400">
                 Order Now
               </button>
             </Link>

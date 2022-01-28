@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Hero from "../components/Hero.js";
 import Nav from "../components/Nav.js";
-import About from "../components/About.js";
+import Intro from "../components/Intro.js";
 import Testimonials from "../components/Testimonials.js";
 import Footer from "../components/Footer.js";
 import Meta from "../components/Meta.js";
@@ -13,7 +12,7 @@ export default function Home() {
       <Meta />
       <Nav />
       <Header />
-      <About />
+      <Intro />
       <Testimonials />
       <Footer />
     </>
