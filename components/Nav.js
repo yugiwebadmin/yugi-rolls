@@ -11,8 +11,7 @@ const links = [
   { name: "Home", to: "/", id: 1 },
   { name: "About", to: "/about", id: 2 },
   { name: "Menu", to: "/menu", id: 3 },
-  { name: "Order", to: "/Order", id: 4 },
-  { name: "Contact", to: "/Contact", id: 5 },
+  { name: "Contact", to: "/#Contact", id: 4 },
 ];
 
 const itemVariants = {
@@ -66,13 +65,15 @@ export default function Nav() {
         } mx-auto   justify-between `}
       >
         <Link href="/">
-          <a className="inline-flex my-2 ml-2 text-2xl tracking-widest transition duration-100 ease-in-out transform cursor-pointer md:text-3xl md:ml-8 lg:ml-16 ">
+          <a className="inline-flex my-2 ml-2 text-2xl cursor-pointer md:text-3xl md:ml-8 lg:ml-16 ">
             <Image src="/yugimonkey.png" alt="logo" height={73} width={100} />
           </a>
         </Link>
-        <div className="h-full px-4 pt-5 md:mr-12 lg:mr-20">
-          <Image src="/yugitext.png" alt="logo" height={50} width={300} />
-        </div>
+        <Link href="/">
+          <a className="h-full px-4 pt-5 cursor-pointer md:mr-12 lg:mr-20">
+            <Image src="/yugitext.png" alt="logo" height={50} width={300} />
+          </a>
+        </Link>
         {/* The Side Bar Menu */}
         <AnimatePresence>
           {open && (
@@ -123,7 +124,7 @@ export default function Nav() {
 
         {/* The Hamburger Menu and Close Icons */}
         <div className="flex justify-end md:mr-4">
-          <button className="px-2 text-orange-600 cursor-pointer">
+          <button className="px-2 text-orange-600 cursor-pointer ">
             <span className="sr-only ">Open main menu</span>
             <Hamburger toggled={open} toggle={cycleOpen} />
           </button>

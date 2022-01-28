@@ -8,12 +8,12 @@ export default function About() {
     <>
       <Meta />
       <Nav />
-      <div className="overflow-hidden bg-white font-body" id="about">
+      <div className="overflow-hidden bg-white font-display" id="about">
         <div className="relative px-4 py-32 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="absolute top-0 bottom-0 hidden w-screen lg:block bg-gray-50 left-3/4" />
+          <div className="absolute top-0 bottom-0 hidden w-screen lg:block bg-neutral-50 left-3/4" />
           <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
             <div>
-              <h2 className="mt-2 text-3xl font-semibold leading-8 tracking-tight text-gray-900 font-display sm:text-4xl">
+              <h2 className="mt-2 text-3xl font-semibold leading-8 tracking-tight text-neutral-900 font-display sm:text-4xl">
                 About Us
               </h2>
             </div>
@@ -42,7 +42,7 @@ export default function About() {
                       y={0}
                       width={4}
                       height={4}
-                      className="text-gray-200"
+                      className="text-orange-600"
                       fill="currentColor"
                     />
                   </pattern>
@@ -64,9 +64,9 @@ export default function About() {
                       height={1376}
                     />
                   </div>
-                  <figcaption className="flex mt-3 text-sm text-gray-500">
+                  <figcaption className="flex mt-3 text-sm text-neutral-500">
                     <CameraIcon
-                      className="flex-none w-5 h-5 text-gray-400"
+                      className="flex-none w-5 h-5 text-neutral-400"
                       aria-hidden="true"
                     />
                     <span className="ml-2">
@@ -78,41 +78,37 @@ export default function About() {
             </div>
             <div className="mt-8 lg:mt-0">
               <div className="mx-auto text-base max-w-prose lg:max-w-none">
-                <p className="text-lg text-gray-500">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  Dictum urna sed consectetur neque tristique pellentesque.
-                  Blandit amet, sed aenean erat arcu morbi.
+                <p className="text-lg text-neutral-900">
+                  My parents owned a Chinese take-out restaurant for many years.
+                  Before that - a Chinese buffet restaurant. They have since
+                  retired and only recently have I convinced them to help me
+                  develop the eggless and meatless eggroll. I wanted something
+                  that tasted just like the eggrolls they used to make, only
+                  100% vegan.
                 </p>
               </div>
-              <div className="mx-auto mt-5 prose text-gray-500 prose-indigo lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <div className="mx-auto mt-5 prose text-neutral-900 prose-indigo lg:max-w-none lg:row-start-1 lg:col-start-1">
                 <p>
-                  Sollicitudin tristique eros erat odio sed vitae, consequat
-                  turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
-                  Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                  After many prototypes, this eggroll was born, and we named it{" "}
+                  <span className="text-orange-600">Yugiroll</span> to
+                  differentiate it from the traditional eggroll. As we were
+                  initially selling them from our home, YUGI rolls stood for
+                  "Your Underground Impossible" rolls.
                 </p>
+                <em>
+                  Side Note: When I was in high school, my fake WWF-type
+                  wrestling name was also "Yugi Eggroll". Looking back, I'm not
+                  quite sure why I decided on such an internalized racial name?
+                </em>
                 <p>
-                  Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                  sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum
-                  et et et sit. Faucibus sed non gravida lectus dignissim
-                  imperdiet a.
-                </p>
-                <p>
-                  Dictum magnis risus phasellus vitae quam morbi. Quis lorem
-                  lorem arcu, metus, egestas netus cursus. In.
-                </p>
-                <ul role="list">
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>
-                    Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                  </li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
-                <p>
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                  tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                  semper. Pellentesque in venenatis vestibulum consectetur nibh
-                  id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi
-                  enim fermentum lacus in. Viverra.
+                  Since the Yugiroll, my parents remade some plant-based
+                  versions of their other restaurant favorites as well. As a
+                  result, this business now exists - we will continually try to
+                  recreate the food I loved before I went vegan, and to{" "}
+                  <em>
+                    {" "}
+                    set a higher standard for vegan asian food in Ottawa.
+                  </em>
                 </p>
               </div>
             </div>

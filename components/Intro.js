@@ -1,33 +1,35 @@
 import Link from "next/link";
+import DelayedFadeIn from "../animations/DelayedFadeIn";
+import FadeUp from "../animations/FadeUp";
+import FadeLeft from "../animations/FadeLeft";
 
 export default function Intro() {
   return (
     <div className="bg-white font-display">
-      <div className="px-4 py-12 mx-auto text-center max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <h2 className="text-3xl font-semibold tracking-tight text-neutral-700 md:text-4xl lg:text-5xl ">
-          <span className="block pb-4">
-            We make Eggrolls with no Meat, no Egg and no Dairy.
-          </span>
-          <span className="block pb-4">We call them Yugirolls.</span>
-          <span className="block text-xl font-medium md:text-2xl lg:text-3xl">
+      <div className="px-4 pt-16 pb-6 mx-auto text-center max-w-7xl sm:px-6 lg:pt-24 lg:px-8">
+        <div className="text-3xl font-semibold tracking-tight text-neutral-600 md:text-4xl lg:text-5xl ">
+          <FadeUp>
+            <span className="block pb-4">
+              We make Eggrolls with no Meat, no Egg and no Dairy.
+            </span>
+          </FadeUp>
+          <DelayedFadeIn>
+            <span className="block pb-4">We call them Yugirolls.</span>
+          </DelayedFadeIn>
+        </div>
+        <FadeLeft>
+          <span className="block pt-4 text-xl font-semibold tracking-tight md:text-2xl lg:text-3xl text-neutral-600">
             We also make other vegan eats.
           </span>
-        </h2>
-        <div className="flex justify-center mt-8">
-          <div className="inline-flex items-center justify-center w-32 py-3 text-base font-medium text-white bg-orange-600 border-2 border-orange-600 shadow cursor-pointer lg:w-44 hover:bg-orange-600">
-            <Link href={"/about"} passHref>
-              Learn More
-            </Link>
+
+          <div className="flex justify-center mt-8">
+            <div className="inline-flex justify-center px-5 py-3 text-base font-medium text-orange-600 bg-transparent border-2 border-orange-600 shadow-md shadow-neutral-500/50 w-36 lg:text-lg lg:w-44 hover:bg-orange-600 hover:border-orange-600 hover:text-white">
+              <Link href={"/about"} passHref>
+                Learn More
+              </Link>
+            </div>
           </div>
-          <div className="inline-flex ml-3">
-            <a
-              href="#"
-              className="inline-flex items-center justify-center w-32 px-5 py-3 text-base font-medium text-orange-600 bg-transparent border-2 border-orange-600 lg:w-44 hover:bg-neutral-200"
-            >
-              Log In
-            </a>
-          </div>
-        </div>
+        </FadeLeft>
       </div>
     </div>
   );

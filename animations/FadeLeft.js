@@ -17,10 +17,10 @@ function FadeUp({ children, isVisible }) {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ delay: 0.4, type: "spring", stiffness: 40 }}
+      transition={{ delay: 1.4, type: "tween" }}
       variants={{
         visible: { opacity: 1, scale: 1, x: 0 },
-        hidden: { opacity: 0, scale: 1, x: 25 },
+        hidden: { opacity: 0, scale: 1, x: 15 },
       }}
     >
       {children}

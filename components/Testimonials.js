@@ -2,7 +2,7 @@ import FadeUp from "../animations/FadeUp.js";
 
 export default function Testimonials() {
   return (
-    <div className="pt-20 bg-white lg:py-24 font-body">
+    <div className="pt-12 bg-white lg:py-24 font-body">
       <div className="pb-16 mb-16 shadow-md bg-neutral-700 lg:pb-0 lg:z-10 lg:relative shadow-neutral-400">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
@@ -34,19 +34,22 @@ export default function Testimonials() {
                   </svg>
                   <FadeUp>
                     <p className="mt-6 text-2xl font-medium text-white ">
-                      ...unbelievably fresh and delicious. I recommend YugiRolls
-                      to everyone I know, vegan or not.
+                      My wife and I had two egg rolls each last night after I
+                      picked up two dozen. They were excellent. We had another
+                      two each tonight after I warmed them up (i.e. leftovers)
+                      and they were also excellent. I gave four to my neighbour
+                      who came back with excellent reviews ... and the same
+                      excellent review for your Won Ton Soup and almond cookies
+                      ... Keep it going. We&apos;re hooked.
                     </p>
                   </FadeUp>
                 </div>
                 <footer className="mt-6">
                   <FadeUp>
-                    <p className="text-base font-medium text-white">
-                      Joe Foody
-                    </p>
-                    <p className="text-base font-medium text-gray-100">
-                      The Daily Planet
-                    </p>
+                    <p className="text-base font-medium text-white">Michel</p>
+                    <em className="text-base font-medium text-gray-100">
+                      Happy Customer
+                    </em>
                   </FadeUp>
                 </footer>
               </blockquote>
