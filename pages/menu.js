@@ -50,9 +50,9 @@ export default function Menu() {
             </p>
           </div>
           <div className="flex justify-center mt-8">
-            <Link href={"mailto:info@yugirolls.com"} passHref>
-              <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:border-yellow-400 hover:text-black shadow-neutral-700/50 lg:w-44 lg:text-xl hover:bg-yellow-400 font-display">
-                Order Now
+            <Link href={"https://linktr.ee/yugirolls"} passHref>
+              <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:text-orange-600 shadow-neutral-500/50 lg:w-44 lg:text-xl hover:bg-transparent hover:shadow-inner font-display">
+                ORDER
               </button>
             </Link>
           </div>

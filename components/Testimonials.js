@@ -2,8 +2,8 @@ import FadeUp from "../animations/FadeUp.js";
 
 export default function Testimonials() {
   return (
-    <div className="pt-12 bg-white lg:py-24 font-body">
-      <div className="pb-16 mb-16 shadow-md bg-neutral-700 lg:pb-0 lg:z-10 lg:relative shadow-neutral-400">
+    <div className="pt-12 bg-white lg:py-24 font-display">
+      <div className="pb-16 mb-16 shadow-md bg-neutral-700 lg:pb-0 lg:z-10 lg:relative shadow-neutral-500/80">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
             <div
@@ -11,7 +11,7 @@ export default function Testimonials() {
               className="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden"
             />
             <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-              <div className="overflow-hidden shadow-md shadow-neutral-800/80 aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+              <div className="overflow-hidden shadow-md shadow-neutral-800/70 aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
                   src="/eggrolls2.jpg"
@@ -25,7 +25,7 @@ export default function Testimonials() {
               <blockquote>
                 <div>
                   <svg
-                    className="w-12 h-12 text-white opacity-25"
+                    className="w-12 h-12 text-white opacity-50"
                     fill="currentColor"
                     viewBox="0 0 32 32"
                     aria-hidden="true"
@@ -33,7 +33,7 @@ export default function Testimonials() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <FadeUp>
-                    <p className="mt-6 text-2xl font-medium text-white ">
+                    <p className="mt-6 text-lg font-light text-white md:text-xl indent-6">
                       My wife and I had two egg rolls each last night after I
                       picked up two dozen. They were excellent. We had another
                       two each tonight after I warmed them up (i.e. leftovers)
@@ -46,10 +46,8 @@ export default function Testimonials() {
                 </div>
                 <footer className="mt-6">
                   <FadeUp>
-                    <p className="text-base font-medium text-white">Michel</p>
-                    <em className="text-base font-medium text-gray-100">
-                      Happy Customer
-                    </em>
+                    <p className="text-base text-white">-Michel</p>
+                    <em className="text-base text-gray-100">Happy Customer</em>
                   </FadeUp>
                 </footer>
               </blockquote>

@@ -23,9 +23,9 @@ export default function Intro() {
           </span>
 
           <div className="flex justify-center mt-8">
-            <div className="inline-flex justify-center px-5 py-3 text-base font-medium text-orange-600 bg-transparent border-2 border-orange-600 shadow-md shadow-neutral-500/50 w-36 lg:text-lg lg:w-44 hover:bg-orange-600 hover:border-orange-600 hover:text-white">
+            <div className="inline-flex justify-center px-5 py-3 text-base text-orange-600 bg-transparent border-2 border-orange-600 shadow-md shadow-neutral-500/40 w-36 lg:text-lg lg:w-44 hover:bg-orange-600 hover:border-orange-600 hover:text-white">
               <Link href={"/about"} passHref>
-                Learn More
+                LEARN MORE
               </Link>
             </div>
           </div>

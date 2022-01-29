@@ -57,58 +57,40 @@ export default function About() {
                 <figure>
                   <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                     <img
-                      className="object-cover object-center shadow-lg shadow-neutral-700/80"
+                      className="object-cover object-center shadow-lg shadow-neutral-700/50"
                       src="/hero2bigger.jpg"
                       alt="Whitney leaning against a railing on a downtown street"
                       width={1184}
                       height={1376}
                     />
                   </div>
-                  <figcaption className="flex mt-3 text-sm text-neutral-500">
-                    <CameraIcon
-                      className="flex-none w-5 h-5 text-neutral-400"
-                      aria-hidden="true"
-                    />
-                    <span className="ml-2">
-                      Photograph by VanTranPhotography
-                    </span>
-                  </figcaption>
                 </figure>
               </div>
             </div>
             <div className="mt-8 lg:mt-0">
               <div className="mx-auto text-base max-w-prose lg:max-w-none">
                 <p className="text-lg text-neutral-900">
-                  My parents owned a Chinese take-out restaurant for many years.
-                  Before that - a Chinese buffet restaurant. They have since
-                  retired and only recently have I convinced them to help me
-                  develop the eggless and meatless eggroll. I wanted something
-                  that tasted just like the eggrolls they used to make, only
-                  100% vegan.
+                  My parent&apos;s owned a Chinese take-out restaurant for many
+                  years and before that a Chinese buffet restaurant. They have
+                  since retired and only recently have I convinced them to help
+                  me develop the eggless and meatless eggroll. I wanted
+                  something to taste just like the eggroll they used to make but
+                  without egg and meat. After many prototypes, this eggroll was
+                  born, and we named it Yugiroll to differentiate it from the
+                  eggroll. As we were selling them at first from our home, YUGI
+                  rolls stood for “Your Underground Impossible” Rolls. Also, my
+                  fake WWF-type wrestling name in high school was also “Yugi
+                  Eggroll”. Thinking back, I am not sure why I decided on such
+                  an internalized racial name?
                 </p>
               </div>
-              <div className="mx-auto mt-5 prose text-neutral-900 prose-indigo lg:max-w-none lg:row-start-1 lg:col-start-1">
-                <p>
-                  After many prototypes, this eggroll was born, and we named it{" "}
-                  <span className="text-orange-600">Yugiroll</span> to
-                  differentiate it from the traditional eggroll. As we were
-                  initially selling them from our home, YUGI rolls stood for
-                  "Your Underground Impossible" rolls.
-                </p>
-                <em>
-                  Side Note: When I was in high school, my fake WWF-type
-                  wrestling name was also "Yugi Eggroll". Looking back, I'm not
-                  quite sure why I decided on such an internalized racial name?
-                </em>
-                <p>
-                  Since the Yugiroll, my parents remade some plant-based
-                  versions of their other restaurant favorites as well. As a
-                  result, this business now exists - we will continually try to
-                  recreate the food I loved before I went vegan, and to{" "}
-                  <em>
-                    {" "}
-                    set a higher standard for vegan asian food in Ottawa.
-                  </em>
+              <div className="pt-6 mx-auto text-base max-w-prose lg:max-w-none">
+                <p className="text-lg text-neutral-900">
+                  Since the Yugiroll, my parents remade some of their other
+                  restaurant favourites plant-based as well. As a result, this
+                  business now exists and we will continually try to recreate
+                  the food I used to love before I went vegan and to better some
+                  of the vegan offerings I see now available in Ottawa.
                 </p>
               </div>
             </div>

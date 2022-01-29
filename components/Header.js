@@ -28,26 +28,45 @@ export default function Header() {
 
               transition: {
                 delay: 0.5,
-                duration: 0.5,
+                duration: 0.3,
                 type: "tween",
               },
             },
           }}
         >
-          <div className="self-center p-8 border shadow-lg bg-neutral-500/50 w-max backdrop-blur-sm shadow-neutral-700">
+          <div className="self-center p-8 border shadow-lg bg-neutral-500/50 w-max backdrop-blur-sm shadow-neutral-700/70">
             Next Popups:
             <br /> -Tues Feb 1- <br /> -Monday Feb 14-
           </div>
         </motion.h1>
-        <DelayedFadeIn>
-          <div className="flex justify-center">
-            <Link href={"mailto:info@yugirolls.com"} passHref>
-              <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:border-yellow-400 hover:text-black shadow-neutral-700 lg:w-44 lg:text-xl hover:bg-yellow-400">
-                Order Now
-              </button>
-            </Link>
-          </div>
-        </DelayedFadeIn>
+
+        <motion.div
+          className="flex justify-center"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 1,
+              opacity: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+
+              transition: {
+                delay: 1.2,
+                duration: 0.3,
+                type: "tween",
+              },
+            },
+          }}
+        >
+          <Link href={"https://linktr.ee/yugirolls"} passHref>
+            <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:text-orange-600 shadow-neutral-700/70 lg:w-44 lg:text-xl hover:bg-neutral-100 hover:shadow-inner">
+              ORDER
+            </button>
+          </Link>
+        </motion.div>
       </main>
     </section>
   );

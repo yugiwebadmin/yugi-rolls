@@ -86,14 +86,12 @@ export default function Footer() {
             <div role="list" className="flex flex-col mt-2 ">
               <div className="py-4 text-xl underline hover:text-orange-600">
                 <a href="tel:+1-613-769-6777" className="inline-flex">
-                  Phone: (613) 769-6777 &nbsp;
-                  <ArrowRightIcon className="w-6 h-7" />
+                  Phone: (613) 769-6777
                 </a>
               </div>
               <div className="py-4 text-xl underline hover:text-orange-600">
                 <a href="mailto:info@yugirolls.com" className="inline-flex">
-                  Email: info@yugirolls.com &nbsp;
-                  <ArrowRightIcon className="w-6 h-7" />
+                  Email: info@yugirolls.com
                 </a>
               </div>
             </div>
