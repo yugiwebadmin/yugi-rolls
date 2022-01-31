@@ -21,20 +21,20 @@ const itemVariants = {
   open: { opacity: 1 },
 };
 
-const sideVariants = {
-  closed: {
-    transition: {
-      staggerChildren: 0,
-      staggerDirection: -1,
-    },
-  },
-  open: {
-    transition: {
-      staggerChildren: 0.3,
-      staggerDirection: 1,
-    },
-  },
-};
+// const sideVariants = {
+//   closed: {
+//     transition: {
+//       staggerChildren: 0,
+//       staggerDirection: -1,
+//     },
+//   },
+//   open: {
+//     transition: {
+//       staggerChildren: 0.3,
+//       staggerDirection: 1,
+//     },
+//   },
+// };
 
 export default function Nav() {
   const [open, cycleOpen] = useCycle(false, true);
@@ -94,7 +94,7 @@ export default function Nav() {
                 initial="closed"
                 animate="open"
                 exit="closed"
-                variants={sideVariants}
+                // variants={sideVariants}
               >
                 <div className="pt-12 pb-10">
                   <Image
