@@ -35,8 +35,9 @@ export default function Header() {
           }}
         >
           <div className="self-center p-8 border shadow-lg bg-neutral-500/50 w-max backdrop-blur-sm shadow-neutral-700/70">
-            Next Popups:
-            <br /> -Tues Feb 1- <br /> -Monday Feb 14-
+            Next Popup:
+            <br />
+            -Monday Feb 14-
           </div>
         </motion.h1>
 

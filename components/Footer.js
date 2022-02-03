@@ -64,15 +64,8 @@ export default function Footer() {
             </h3>
             <ul role="list" className="mt-2 space-y-8 ">
               <li>
-                Feb 1: <br />
-                5pm - 7pm
-                <br />
-                1305 Wellington St West <br />
-                (Little Jo Berry's)
-              </li>
-              <li>
                 Feb 14: <br />
-                5pm - 7pm
+                4pm - 6pm
                 <br />
                 1305 Wellington St West <br />
                 (Little Jo Berry's)
