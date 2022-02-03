@@ -54,14 +54,14 @@ export default function Nav() {
 
   return (
     <nav
-      className={` w-full flex  justify-between bg-white/40  font-display backdrop-blur-sm   fixed z-50 transition ease-in-out duration-500 ${
+      className={` w-full flex  justify-between bg-white/30  font-display backdrop-blur-sm   fixed z-50 transition ease-in-out duration-500 ${
         animateNav && "shadow-xl "
       }`}
     >
       <div
         className={`flex w-screen py-2 bg-transparent    ${
           animateNav &&
-          "py-0   backdrop-blur-sm bg-white/40 trasition ease-in-out duration-500"
+          "py-0   backdrop-blur-sm bg-white/30 trasition ease-in-out duration-500"
         } mx-auto   justify-between `}
       >
         <Link href="/">

@@ -2,12 +2,14 @@ import Link from "next/link";
 import { CameraIcon } from "@heroicons/react/solid";
 import Meta from "../components/Meta";
 import Nav from "../components/Nav";
+import FadeUp from "../animations/FadeUp";
 
 export default function About() {
   return (
     <>
       <Meta />
       <Nav />
+
       <div className="overflow-hidden bg-white font-display" id="about">
         <div className="relative px-4 py-32 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="absolute top-0 bottom-0 hidden w-screen lg:block bg-neutral-50 left-3/4" />
@@ -67,32 +69,37 @@ export default function About() {
                 </figure>
               </div>
             </div>
+
             <div className="mt-8 lg:mt-0">
-              <div className="mx-auto text-base max-w-prose lg:max-w-none">
-                <p className="text-lg text-neutral-900">
-                  My parent&apos;s owned a Chinese take-out restaurant for many
-                  years and before that a Chinese buffet restaurant. They have
-                  since retired and only recently have I convinced them to help
-                  me develop the eggless and meatless eggroll. I wanted
-                  something to taste just like the eggroll they used to make but
-                  without egg and meat. After many prototypes, this eggroll was
-                  born, and we named it Yugiroll to differentiate it from the
-                  eggroll. As we were selling them at first from our home, YUGI
-                  rolls stood for “Your Underground Impossible” Rolls. Also, my
-                  fake WWF-type wrestling name in high school was also “Yugi
-                  Eggroll”. Thinking back, I am not sure why I decided on such
-                  an internalized racial name?
-                </p>
-              </div>
-              <div className="pt-6 mx-auto text-base max-w-prose lg:max-w-none">
-                <p className="text-lg text-neutral-900">
-                  Since the Yugiroll, my parents remade some of their other
-                  restaurant favourites plant-based as well. As a result, this
-                  business now exists and we will continually try to recreate
-                  the food I used to love before I went vegan and to better some
-                  of the vegan offerings I see now available in Ottawa.
-                </p>
-              </div>
+              <FadeUp>
+                <div className="mx-auto text-base max-w-prose lg:max-w-none">
+                  <p className="text-lg text-neutral-900">
+                    My parent&apos;s owned a Chinese take-out restaurant for
+                    many years and before that a Chinese buffet restaurant. They
+                    have since retired and only recently have I convinced them
+                    to help me develop the eggless and meatless eggroll. I
+                    wanted something to taste just like the eggroll they used to
+                    make but without egg and meat. After many prototypes, this
+                    eggroll was born, and we named it Yugiroll to differentiate
+                    it from the eggroll. As we were selling them at first from
+                    our home, YUGI rolls stood for “Your Underground Impossible”
+                    Rolls. Also, my fake WWF-type wrestling name in high school
+                    was also “Yugi Eggroll”. Thinking back, I am not sure why I
+                    decided on such an internalized racial name?
+                  </p>
+                </div>
+              </FadeUp>
+              <FadeUp>
+                <div className="pt-6 mx-auto text-base max-w-prose lg:max-w-none">
+                  <p className="text-lg text-neutral-900">
+                    Since the Yugiroll, my parents remade some of their other
+                    restaurant favourites plant-based as well. As a result, this
+                    business now exists and we will continually try to recreate
+                    the food I used to love before I went vegan and to better
+                    some of the vegan offerings I see now available in Ottawa.
+                  </p>
+                </div>
+              </FadeUp>
             </div>
           </div>
         </div>
