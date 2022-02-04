@@ -65,7 +65,7 @@ export default function Footer() {
             <ul role="list" className="mt-2 space-y-8 ">
               <li>
                 Feb 14: <br />
-                4pm - 6pm
+                4pm - 7pm
                 <br />
                 1305 Wellington St West <br />
                 (Little Jo Berry's)
