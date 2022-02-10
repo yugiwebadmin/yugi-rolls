@@ -13,10 +13,14 @@ export default function Menu() {
         className="px-6 py-28 md:py-32 lg:py-36 md:px-28 lg:px-52 2xl:px-72 text-neutral-800 font-body"
         id="menu"
       >
-        <div className="pb-6 mx-6 border-b-2 border-neutral-500">
-          <h1 className="text-2xl font-medium text-center md:text-3xl lg:text-4xl font-display">
+        <div className="pb-6 mx-6 text-center border-b-2 border-neutral-500">
+          <h1 className="pb-2 text-2xl font-medium md:text-3xl lg:text-4xl font-display">
             OUR MENU
           </h1>
+          <em className="text-sm lg:text-base">
+            Menu items will vary from event to event. Please consult event
+            details for what is being offered.
+          </em>
         </div>
         <div className="flex flex-col justify-center pt-4 md:text-lg lg:text-xl">
           <FadeUp>
@@ -99,7 +103,7 @@ export default function Menu() {
           <FadeUp>
             <div className="flex flex-col mb-6 md:pb-12 md:flex-row">
               <div className="flex-col p-6 md:p-12 md:w-2/3">
-                <h3 className="font-semibold">Vegan Mooncake. $12/2 cakes</h3>
+                <h3 className="font-semibold">Vegan Mooncake: $12/2 cakes</h3>
                 <p>
                   Traditionally mooncake is only available in the autumn and
                   sometimes at new year. Seasonal Item.
@@ -108,6 +112,73 @@ export default function Menu() {
               <div className="px-6 m-auto md:py-4">
                 <Image
                   src="/mooncake500.jpg"
+                  alt="picture of eggroles"
+                  height={250}
+                  width={250}
+                  layout=""
+                />
+              </div>
+            </div>
+          </FadeUp>
+          <FadeUp>
+            <div className="flex flex-col mb-6 md:pb-12 md:flex-row">
+              <div className="flex-col p-6 md:p-12 md:w-2/3">
+                <h3 className="font-semibold">Mad Paw Tofu: $20</h3>
+                <p>
+                  Mad Paw Tofu is kind of like "Ma Po Tofu" mixed with a
+                  "Teochow Tofu" my great grandma used to make. This new
+                  creation is called Mad Paw Tofu, all we missing is a cool
+                  illustration of mad cat from Inspector Gadget eating it. This
+                  is Vegan, gluten free and served with steam white rice.
+                </p>
+              </div>
+              <div className="px-6 m-auto md:py-4">
+                <Image
+                  src="/tofu500.jpg"
+                  alt="picture of eggroles"
+                  height={250}
+                  width={250}
+                  layout=""
+                />
+              </div>
+            </div>
+          </FadeUp>
+          <FadeUp>
+            <div className="flex flex-col mb-6 md:pb-12 md:flex-row">
+              <div className="flex-col p-6 md:p-12 md:w-2/3">
+                <h3 className="font-semibold">
+                  S/S Vegan Fried Wontons: $20/15 pieces
+                </h3>
+                <p>
+                  Sweet and Sour Fried Wontons. A slightly different wonton
+                  filling deep fried with S/S sauce. Also Vegan.
+                </p>
+              </div>
+              <div className="px-6 m-auto md:py-4">
+                <Image
+                  src="/sswonton500.jpg"
+                  alt="picture of eggroles"
+                  height={250}
+                  width={250}
+                  layout=""
+                />
+              </div>
+            </div>
+          </FadeUp>
+          <FadeUp>
+            <div className="flex flex-col mb-6 md:pb-12 md:flex-row">
+              <div className="flex-col p-6 md:p-12 md:w-2/3">
+                <h3 className="font-semibold">
+                  Vegan Hot and Sour Soup: $10/bowl
+                </h3>
+                <p>
+                  Hot and Sour Soup with dry noodles. Yes, it's vegan. Can be
+                  Gluten free if you ask for no dry Noodles.
+                </p>
+              </div>
+              <div className="px-6 m-auto md:py-4">
+                <Image
+                  src="/hotsour500.jpg"
                   alt="picture of eggroles"
                   height={250}
                   width={250}
