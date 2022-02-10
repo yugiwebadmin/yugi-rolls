@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CameraIcon } from "@heroicons/react/solid";
+
 import Meta from "../components/Meta";
 import Nav from "../components/Nav";
 import FadeUp from "../animations/FadeUp";
