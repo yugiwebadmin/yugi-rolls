@@ -4,6 +4,7 @@ export default function Meta() {
   return (
     <Head>
       <title>YugiRolls</title>
+      <meta name="description" content="Asian Food" />
       <link rel="icon" href="/favicon.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
