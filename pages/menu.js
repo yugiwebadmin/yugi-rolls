@@ -189,7 +189,7 @@ export default function Menu() {
           </FadeUp>
 
           <div className="flex justify-center mt-8">
-            <Link href={"/order"} passHref>
+            <Link href={"/order2"} passHref>
               <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:text-orange-600 shadow-neutral-500/50 lg:w-44 lg:text-xl hover:bg-transparent hover:shadow-inner font-display">
                 ORDER
               </button>
