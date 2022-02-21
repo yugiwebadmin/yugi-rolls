@@ -37,16 +37,16 @@ export default function Order() {
           <h2 className="pb-4 font-medium underline ">MENU (Limited):</h2>
           <li className="pb-2"> #1 Yugi Rolls - $30/dozen</li>
           <li className="pb-2">
-            #2 Vegan Hot and Sour Soup (if you want it spicy - tell me spicy!)-
-            $10/bowl
+            #2  Yugi Spring Rolls - $30/dozen
           </li>
-          <li className="pb-2">#3 Vegan Almond cookies - $10/dozen</li>
+          <li className="pb-2">#3 Vegan Wonton Soup - $10/bowl</li>
           <li className="pb-2">
             {" "}
-            #4 Vegan Potsticker - $20 for 20 (FROZEN UNCOOKED)
+            #4 Vegan Almond cookies - $10/dozen
           </li>
-          <li className="pb-2">#5 Mad Paw Tofu - $20</li>
-          <li className="pb-2"> #6 S/S Vegan Fried WonTons - $20 for 15</li>
+          <li className="pb-2">#5 Vegan Potsticker - $20 for 20 (FROZEN UNCOOKED)</li>
+          <li className="pb-2"> #6 Mad Paw Tofu - $20</li>
+          <li className="pb-2"> #7 S/S Vegan Fried WonTons - $20 for 15 </li>
         </ul>
       </section>
     </>
