@@ -187,9 +187,31 @@ export default function Menu() {
               </div>
             </div>
           </FadeUp>
+  <FadeUp>
+            <div className="flex flex-col mb-6 md:pb-12 md:flex-row">
+              <div className="flex-col p-6 md:p-12 md:w-2/3">
+                <h3 className="font-semibold">
+                 Yugi Spring Roll: $30/dozen
+                </h3>
+                <p>
+                  For those who don't like the faux meat products, we have the Yugi Spring roll made with Tofu, Veggies and mushrooms. Vegan.
+                </p>
+              </div>
+              <div className="px-6 m-auto md:py-4">
+                <Image
+                  src="/newrolls500.jpg"
+                  alt="picture of eggroles"
+                  height={250}
+                  width={250}
+                  layout=""
+                />
+              </div>
+            </div>
+          </FadeUp>
+
 
           <div className="flex justify-center mt-8">
-            <Link href={"/order2"} passHref>
+            <Link href={"/order"} passHref>
               <button className="absolute p-3 -mt-5 text-base font-normal tracking-wide text-white bg-orange-600 border-2 border-orange-600 shadow-lg cursor-pointer w-36 hover:text-orange-600 shadow-neutral-500/50 lg:w-44 lg:text-xl hover:bg-transparent hover:shadow-inner font-display">
                 ORDER
               </button>
