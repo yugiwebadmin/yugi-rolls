@@ -12,7 +12,7 @@ export default function Order() {
         id="order"
       >
         <h1 className="py-4 font-medium text-center">
-          HOW TO pre-ORDER for February 14th event between 4-7pm:
+          HOW TO pre-ORDER for February 28th event between 4-7pm:
         </h1>
         <p className="py-4">
           *** Paying with Cash:
